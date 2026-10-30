@@ -1,0 +1,9 @@
+[package]
+name = "readlink"
+version = "0.1.0"
+edition = "2024"
+description = "The readlink Command Displays Symbolic Link Targets or Resolves Absolute Paths, with Optional NUL-Separated Output for Pipelines"
+keywords = ["rust", "linux", "symlinks", "parsonlabs"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
